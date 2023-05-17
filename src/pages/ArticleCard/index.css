@@ -1,0 +1,35 @@
+.card{
+    border-style:none !important;
+    border-width:0px;
+     animation-duration: 1s;
+   /*  animation-iteration-count: infinite;
+    transform-origin: bottom; */
+
+}
+
+.card img:hover{
+    opacity:0.5;
+    
+}
+
+.bounce:hover {
+    animation-name: bounce;
+    animation-timing-function: ease;
+}
+
+@keyframes bounce {
+    0%   { transform: translateY(0); }
+    50%  { transform: translateY(-5px); }
+    100% { transform: translateY(0); }
+  }
+
+.readmore-btn{
+    border-style:none;
+    border-radius:5px;
+    padding:3px;
+}
+
+.readmore-btn:hover{
+   color:brown;
+
+}
